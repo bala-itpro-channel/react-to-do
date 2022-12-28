@@ -1,0 +1,43 @@
+.create-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: lightgray;
+}
+
+.create-container__row {
+  display: flex;
+  align-items: center;
+  &.btn-submit {
+    justify-content: center;
+  }
+  div {
+    width: 50%;
+    padding: 20px 0;
+  }
+  div:first-child {
+   text-align: right;
+  }
+  div:last-child {
+    text-align: left;
+    padding-left: 20px;
+  }
+  button {
+    justify-content: center;
+    padding: 5px 30px;
+    background-color: rgb(57, 56, 56);
+    border: 1px rgb(52, 50, 50) solid;
+    margin-bottom: 10px;
+    color: white;
+  }
+  input[type="text"] {
+    width: 400px;
+    border: 1px gray solid;
+  }
+}
+
+.input-class {
+  &.todo {
+    border-radius: 2px;
+  }
+}

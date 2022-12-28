@@ -1,0 +1,31 @@
+h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+h6 {
+  margin-top: 0;
+}
+
+ul {
+  list-style: circle;
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    padding: 10px;
+    span {
+      cursor: pointer;
+      &.title {
+        &.underline {
+          text-decoration: line-through;
+        }
+      }
+      &.delete {
+        padding-left: 20px;
+      }
+    }
+    
+  }
+}
